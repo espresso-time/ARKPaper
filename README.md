@@ -1,7 +1,7 @@
 # ARKPaper
 ###  A paper wallet creator for ARK.
 
-![ARKPaper-logo](https://raw.githubusercontent.com/espresso-time/ARKPaper/master/public/paperWalletMeta.png)
+![ARKPaper-logo](https://github.com/espresso-time/ARKPaper/blob/master/public/paperWalletMeta.png?raw=true)
 
 ### Create your ARK paper wallet offline in 2 easy steps
 
