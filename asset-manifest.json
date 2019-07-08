@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d57ebb0.chunk.css",
+    "main.js": "/static/js/main.e3bf000e.chunk.js",
+    "main.js.map": "/static/js/main.e3bf000e.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.bda70d9a.chunk.js": "/static/js/2.bda70d9a.chunk.js",
+    "static/js/2.bda70d9a.chunk.js.map": "/static/js/2.bda70d9a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4692148aeed4c880de8731296ef7e2bd.js": "/precache-manifest.4692148aeed4c880de8731296ef7e2bd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2d57ebb0.chunk.css.map": "/static/css/main.2d57ebb0.chunk.css.map",
+    "static/media/ark-blue.png": "/static/media/ark-blue.4823dc40.png",
+    "static/media/ark-dark.png": "/static/media/ark-dark.7b617342.png",
+    "static/media/chill-pink.png": "/static/media/chill-pink.2f42265a.png",
+    "static/media/christmas-postcard.png": "/static/media/christmas-postcard.ecf0cb0e.png",
+    "static/media/classic-red.png": "/static/media/classic-red.340aa53e.png",
+    "static/media/fa.min.css": "/static/media/fa-solid-900.ef3df984.eot",
+    "static/media/heart-pink.png": "/static/media/heart-pink.d7f4fb3a.png",
+    "static/media/impressive-red.png": "/static/media/impressive-red.cc6dfc9e.png",
+    "static/media/logo.png": "/static/media/logo.2e85d5d4.png",
+    "static/media/logo_w.png": "/static/media/logo_w.ed7b3372.png"
+  }
+}
