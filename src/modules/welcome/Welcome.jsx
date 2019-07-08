@@ -26,7 +26,7 @@ export default function Welcome() {
           ? ""
           : <Online>
             <a
-              href="https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0"
+              href="https://github.com/espresso-time/ARKPaper/releases"
               className="button is-primary"
             >
               <i className="fa fa-download fa-fw" aria-hidden="true" />{" "}

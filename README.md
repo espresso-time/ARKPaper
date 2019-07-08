@@ -7,7 +7,7 @@
 
 
 ## How to use
-ARKpaper works on browser and natively offline on Mac, Linux or Windows. [Here you can find the downloadable version of ARKPaper](https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0).
+ARKpaper works on browser and natively offline on Mac, Linux or Windows. [Here you can find the downloadable version of ARKPaper](https://github.com/espresso-time/ARKPaper/releases).
 
 ## What is a paper wallet?
 
@@ -31,14 +31,22 @@ Another use case of a paper wallet is to gift it to friends for example for Chri
 The code of ARKPaper is open source. You can improve it and submit a PR to the repository. If you need assistance, feel free to contact Espresso on the Ark slack chat.
 
 
-The safest way to generate a wallet is to [download the application here](https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0), transfer it into an usb drive, start an offline linux distribution, and open the index.html.
+The safest way to generate a wallet is to [download the application here](https://github.com/espresso-time/ARKPaper/releases), transfer it into an usb drive, start an offline linux distribution, and open the index.html.
 
 
-If you don't want to bother to use an offline linux distribution, you can just download [ARKPaper.zip from here](https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0), unzip it and execute the index.html. There is no need to be connected to internet while running the ARKPaper app.
+If you don't want to bother to use an offline linux distribution, you can just download [ARKPaper.zip from here](https://github.com/espresso-time/ARKPaper/releases), unzip it and execute the index.html. There is no need to be connected to internet while running the ARKPaper app.
 
 ## Do you want to propose a new design for the wallets?
 
 Awesome! Let's discuss about the new design by opening a new issue on Github.
+
+## FAQ
+
+### Windows says that is not safe to open the application
+This error is because the app is not signed yet. In order to execute it, you will have to click with the right click on the app's icon -> properties and ticking the checkbox `unblock`
+
+### Where is the base PSD template for the wallet?
+coming soon!
 
 ## Disclaimer
 

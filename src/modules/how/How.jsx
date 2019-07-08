@@ -55,7 +55,7 @@ export default function How() {
               is transmitted to any server and there is no tracking/analytics
               software in place. In order to verify this, you can analyze on{" "}
               <a
-                href="https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0"
+                href="https://github.com/espresso-time/ARKPaper/releases"
                 className="underlined"
               >
                 {" "}Github{" "}
@@ -76,7 +76,7 @@ export default function How() {
             <p>
               The safest way to generate a wallet is{" "}
               <a
-                href="https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0"
+                href="https://github.com/espresso-time/ARKPaper/releases"
                 className="underlined"
               >
                 to download the application here
@@ -87,7 +87,7 @@ export default function How() {
               If you don&apos;t want to bother to use an offline linux
               distribution, you can just download{" "}
               <a
-                href="https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0"
+                href="https://github.com/espresso-time/ARKPaper/releases"
                 className="underlined"
               >
                 ARKpaper.zip from here

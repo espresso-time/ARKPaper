@@ -34,7 +34,7 @@ export default function Header() {
                       </p>
                       :
                       <a
-                        href="https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0"
+                        href="https://github.com/espresso-time/ARKPaper/releases"
                         className="button is-info is-inverted"
                       >
                         <span>Download and use it offline</span>
