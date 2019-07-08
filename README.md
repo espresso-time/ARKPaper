@@ -1,5 +1,5 @@
 # ARKPaper
-###  A paper wallet creator for ARK.
+###  A paper wallet creator for ARK. [Try it here](https://espresso-time.github.io/ARKPaper)
 
 ![ARKPaper-logo](https://github.com/espresso-time/ARKPaper/blob/master/public/paperWalletMeta.png?raw=true)
 
@@ -7,7 +7,7 @@
 
 
 ## How to use
-ARKpaper works on browser and natively offline on Mac, Linux or Windows. [Here you can find the downloadable version of ARKPaper](https://github.com/espresso-time/ARKPaper/releases).
+ARKpaper works on browser and natively offline on Mac, Linux or Windows. [Here you can try it online](https://espresso-time.github.io/ARKPaper) or [here you can find the downloadable version of ARKPaper](https://github.com/espresso-time/ARKPaper/releases).
 
 ## What is a paper wallet?
 
@@ -42,6 +42,9 @@ Awesome! Let's discuss about the new design by opening a new issue on Github.
 
 ## FAQ
 
+### How do I save the wallet as PDF?
+Click on the Print button and on the open dialog click `save as PDF`;
+
 ### Windows says that is not safe to open the application
 This error is because the app is not signed yet. In order to execute it, you will have to click with the right click on the app's icon -> properties and ticking the checkbox `unblock`
 
@@ -52,4 +55,4 @@ coming soon!
 
 By using this software you accept the terms and conditions. This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
-# Built with ❤️ by Espresso
+## Built with ❤️ by Espresso
