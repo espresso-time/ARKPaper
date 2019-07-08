@@ -5,7 +5,8 @@ import {
   emptyByte
 } from "../../logic/wallets";
 
-class PassphraseGenerator extends Component {
+// TODO: Refactor to use React Hooks
+class EntropyStep extends Component {
   constructor() {
     super();
     this.state = {
@@ -132,4 +133,4 @@ class PassphraseGenerator extends Component {
   }
 }
 
-export default PassphraseGenerator;
+export default EntropyStep;

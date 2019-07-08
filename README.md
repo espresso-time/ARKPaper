@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ARKPaper
+###  A paper wallet creator for ARK.
 
-## Available Scripts
+![ARKPaper-logo](https://raw.githubusercontent.com/espresso-time/ARKPaper/master/public/paperWalletMeta.png)
 
-In the project directory, you can run:
+### Create your ARK paper wallet offline in 2 easy steps
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to use
+ARKpaper works on browser and natively offline on Mac, Linux or Windows. [Here you can find the downloadable version of ARKPaper](https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0).
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## What is a paper wallet?
 
-### `npm test`
+One of the most exciting things you can do with your ARK is to send them to a piece of paper.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+First of all, the first rule of crypto-club is: Your keys — Your ARK, Not your keys — Not your ARK.
+In the most specific sense, an ARK paper wallet is a document containing all of the data necessary to access a the wallet from ARK Desktop Wallet.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What are the benefits of having a paper wallet?
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+A paper wallet can be generated offline and allows you to have a copy of your copy literally on a piece of paper
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What can I do with a paper wallet?
 
-### `npm run eject`
+With an ARK paper wallet you can store you ARK passphrase away of a computer. If the paper wallet is stored properly then this might be considered an extra layer of security in storing your passphrase.
+Another use case of a paper wallet is to gift it to friends for example for Christmas. Let's say you want to give 10 ARK to John, but John doesn't know how to create an ARK wallet. You could create an ARK Paper Wallet for John, send some ARK to the generated address and then gift the paper wallet to him.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How do I generate the paper wallet offline?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The code of ARKPaper is open source. You can improve it and submit a PR to the repository. If you need assistance, feel free to contact Espresso on the Ark slack chat.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The safest way to generate a wallet is to [download the application here](https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0), transfer it into an usb drive, start an offline linux distribution, and open the index.html.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you don't want to bother to use an offline linux distribution, you can just download [ARKPaper.zip from here](https://github.com/espresso-time/ARKPaper/releases/tag/1.0.0), unzip it and execute the index.html. There is no need to be connected to internet while running the ARKPaper app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Do you want to propose a new design for the wallets?
 
-### Code Splitting
+Awesome! Let's discuss about the new design by opening a new issue on Github.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Disclaimer
 
-### Analyzing the Bundle Size
+By using this software you accept the terms and conditions. This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Built with ❤️ by Espresso

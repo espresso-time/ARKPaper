@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React  from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import "./bulma.css";
+import "./App.css";
+import "./fa/css/fa.min.css";
 
-function App() {
+import Header from "./modules/header/Header";
+import Footer from "./modules/footer/Footer";
+import Welcome from "./modules/welcome/Welcome";
+import Wizard from "./modules/walletGenerator/views/Wizard";
+import WalletInfo from "./modules/walletGenerator/views/generate/WalletInfo";
+import How from "./modules/how/How";
+import SmallScreenBlocker from "./modules/smallScreenBlocker/SmallScreen";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <Router>
+      <div className="only-big-screen">
+        <div>
+          <section
+            className="hero is-info is-fullheight"
+            style={{
+              background: "linear-gradient(126deg, #e1ebee -23%, #061c6d)"
+            }}
+          >
+            <Header />
 
-export default App;
+            <div className="hero-body">
+              <Switch>
+                <Route exact path="/" component={Welcome} />
+                <Route exact path="/start" component={Wizard} />
+                <Route path="/create-wallet" component={WalletInfo} />
+                <Route path="/how-it-works" component={How} />
+                <Route component={Welcome} />
+              </Switch>
+            </div>
+
+            <Footer />
+          </section>
+        </div>
+      </div>
+      <SmallScreenBlocker/>
+    </Router>
+  );
+};

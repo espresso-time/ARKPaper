@@ -12,14 +12,14 @@
 .christmasPostcard .text-over-address {
   bottom: 372px;
   left: 271px;
-  font-size: 30px !important;
+  font-size: 28px !important;
 }
 
 .christmasPostcard .text-over-passphrase {
   bottom: 278px;
   left: 271px;
   line-height: 1.2;
-  max-width: 580px;
+  max-width: 615px;
   text-align: left;
   font-size: 27px !important;
 }
@@ -107,6 +107,7 @@
   .christmasPostcard .text-over-address {
     bottom: 381px;
     left: 232px;
+    font-size: 24px !important;
   }
 
   .christmasPostcard .text-over-passphrase {
@@ -121,8 +122,9 @@
     bottom: 222px;
     left: 238px;
     line-height: 1.2;
-    max-width: 615px;
+    max-width: 543px;
     text-align: left;
+    font-size: 24px!important;
   }
 
   .christmasPostcard canvas {
@@ -146,12 +148,13 @@
   }
 
   .christmasPostcard .text-over-address {
-    bottom: 402px;
+    bottom: 408px;
     left: 193px;
+    font-size: 19px !important;
   }
 
   .christmasPostcard .text-over-passphrase {
-    bottom: 338px;
+    bottom: 341px;
     left: 193px;
     line-height: 1.2;
     text-align: left;
@@ -162,9 +165,9 @@
     bottom: 276px;
     left: 193px;
     line-height: 1.2;
-    max-width: 465px;
+    max-width: 428px;
     text-align: left;
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
 
   .christmasPostcard canvas {

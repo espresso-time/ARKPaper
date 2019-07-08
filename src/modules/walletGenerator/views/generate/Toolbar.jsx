@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// TODO: Refactor to use React Hooks
 class Toolbar extends Component {
   setMessage = e => {
     let max_message = false;

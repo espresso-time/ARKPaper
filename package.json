@@ -2,16 +2,43 @@
   "name": "arkpaper",
   "version": "0.1.0",
   "private": true,
+  "main": "public/electron.js",
+  "author": "Espresso",
+  "description": "Do you want to store your ARK safely? Do you want to gift ARK to somebody? Or maybe you just want to generate an offline wallet for ARK? ARKPaper will do it for you! built by Espresso",
+  "homepage": "./",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "@arkecosystem/crypto": "2.4.14",
+    "bitcore-mnemonic": "8.3.4",
+    "crypto": "1.0.1",
+    "electron-is-dev": "1.1.0",
+    "js-nacl": "1.3.2",
+    "prop-types": "15.7.2",
+    "qrcode.react": "0.9.3",
+    "react": "16.8.6",
+    "react-animate-on-change": "2.2.0",
+    "react-detect-offline": "2.4.0",
+    "react-dom": "16.8.6",
+    "react-easy-transition": "1.2.6",
+    "react-router-dom": "5.0.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron": "electron .",
+    "electron-pack": "build -c.extraMetadata.main=build/electron.js --mac --windows --linux",
+    "electron-pack-win": "build -c.extraMetadata.main=build/electron.js --windows",
+    "electron-pack-mac": "build -c.extraMetadata.main=build/electron.js --mac",
+    "preelectron-pack": "yarn build"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "electron": "5.0.6",
+    "electron-builder": "20.44.4",
+    "wait-on": "^3.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +54,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "build": {
+    "appId": "com.arkpaper",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": "portable"
+    }
   }
 }

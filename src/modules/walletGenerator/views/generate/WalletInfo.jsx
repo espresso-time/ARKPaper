@@ -9,6 +9,7 @@ import { generateWallet } from "../../logic/wallets";
 import "./styles/index";
 import themes from "./styles/index";
 
+// TODO: Refactor to use React Hooks
 class WalletInfo extends Component {
   query = {};
 

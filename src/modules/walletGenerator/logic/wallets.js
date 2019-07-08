@@ -1,14 +1,10 @@
-const crypto = require("crypto");
-const Identities = require("@arkecosystem/crypto");
+import crypto from "crypto";
+import { Identities } from "@arkecosystem/crypto";
+import nacl_factory from "js-nacl";
 
-const bip39 = require("bip39");
-const nacl_factory = require("js-nacl");
-const bignum = require("browserify-bignum");
-
-const buffLength = 8;
-
-//Next line is because of this: https://github.com/bitpay/bitcore-lib/issues/153
+// https://github.com/bitpay/bitcore-lib/issues/153
 if (global._bitcore) delete global._bitcore;
+
 const mnemonic = require("bitcore-mnemonic");
 
 export const generateWallet = (passphrase, cb) => {
@@ -18,34 +14,9 @@ export const generateWallet = (passphrase, cb) => {
         return { error: true, reason: "Passphrase not valid" };
       }
 
-      let hash = crypto
-        .createHash("sha256")
-        .update(passphrase, "utf8")
-        .digest();
-
-      let kp = nacl.crypto_sign_keypair_from_seed(hash);
-      let publicKey = new Buffer(kp.signPk);
-      let privateKey = new Buffer(kp.signSk);
-
-      let getAddress = function(publicKey) {
-        let hash = crypto.createHash("sha256").update(publicKey).digest();
-        let buff = new Buffer(buffLength);
-
-        for (let i = 0; i < buffLength; i++) {
-          buff[i] = hash[7 - i];
-        }
-
-        return bignum.fromBuffer(buff).toString() + "L";
-      };
-
       return {
         passphrase,
-        hash: hash.toString("hex"),
-        address: Identities.Identities.Address.fromPassphrase(passphrase),
-        publicKey: publicKey.toString("hex"),
-        privateKey: privateKey.toString("hex"),
-        entropy: bip39.mnemonicToEntropy(passphrase),
-        seed: bip39.mnemonicToSeedHex(passphrase)
+        address: Identities.Address.fromPassphrase(passphrase),
       };
     };
 

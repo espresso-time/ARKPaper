@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// TODO: Refactor to use React Hooks
 class InfoBox extends Component {
   renderExtraBox = wallet => {
     if (wallet.address && wallet.passphrase) {
