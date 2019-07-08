@@ -42,10 +42,10 @@ class InfoBox extends Component {
             the block explorer.
             <br />
             <br />
-            <strong>Never ever give to anybody your passphrase</strong>. Whoever
+            <strong>Never ever give anybody your passphrase</strong>. Whoever
             has this passphrase can access the ARK contained in this wallet.
             Make sure that you store this paper wallet carefully and you make a
-            backup of it. If you lose this credentials there is no way to get
+            backup of it. If you lose these credentials there is no way to get
             them back.
             <br />
             <br />

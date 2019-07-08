@@ -5,7 +5,7 @@
   "main": "public/electron.js",
   "author": "Espresso",
   "description": "Do you want to store your ARK safely? Do you want to gift ARK to somebody? Or maybe you just want to generate an offline wallet for ARK? ARKPaper will do it for you! built by Espresso",
-  "homepage": "./",
+  "homepage": "https://espresso-time.github.io/ARKPaper",
   "dependencies": {
     "@arkecosystem/crypto": "2.4.14",
     "bitcore-mnemonic": "8.3.4",
