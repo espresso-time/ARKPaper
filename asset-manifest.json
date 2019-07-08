@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ARKPaper/static/css/main.e70a2cf0.chunk.css",
-    "main.js": "/ARKPaper/static/js/main.9c847af9.chunk.js",
-    "main.js.map": "/ARKPaper/static/js/main.9c847af9.chunk.js.map",
+    "main.js": "/ARKPaper/static/js/main.d204e771.chunk.js",
+    "main.js.map": "/ARKPaper/static/js/main.d204e771.chunk.js.map",
     "runtime~main.js": "/ARKPaper/static/js/runtime~main.eeb80a51.js",
     "runtime~main.js.map": "/ARKPaper/static/js/runtime~main.eeb80a51.js.map",
     "static/js/2.731eff9b.chunk.js": "/ARKPaper/static/js/2.731eff9b.chunk.js",
     "static/js/2.731eff9b.chunk.js.map": "/ARKPaper/static/js/2.731eff9b.chunk.js.map",
     "index.html": "/ARKPaper/index.html",
-    "precache-manifest.e71ce3ad61a6548a5cfa33269e3c36d6.js": "/ARKPaper/precache-manifest.e71ce3ad61a6548a5cfa33269e3c36d6.js",
+    "precache-manifest.da7c27cd56421630c58d39a4e7220cf5.js": "/ARKPaper/precache-manifest.da7c27cd56421630c58d39a4e7220cf5.js",
     "service-worker.js": "/ARKPaper/service-worker.js",
     "static/css/main.e70a2cf0.chunk.css.map": "/ARKPaper/static/css/main.e70a2cf0.chunk.css.map",
     "static/media/ark-blue.png": "/ARKPaper/static/media/ark-blue.4823dc40.png",

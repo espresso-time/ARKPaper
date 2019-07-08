@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88193b234a3e4d10cc23ee00e84a4d75",
+    "revision": "ccf51b9b853cfb4ca6d97135854f8e7a",
     "url": "/ARKPaper/index.html"
   },
   {
-    "revision": "1bcfcd427ac38bb09b6b",
+    "revision": "97d3ba1f0b679d5518bf",
     "url": "/ARKPaper/static/css/main.e70a2cf0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ARKPaper/static/js/2.731eff9b.chunk.js"
   },
   {
-    "revision": "1bcfcd427ac38bb09b6b",
-    "url": "/ARKPaper/static/js/main.9c847af9.chunk.js"
+    "revision": "97d3ba1f0b679d5518bf",
+    "url": "/ARKPaper/static/js/main.d204e771.chunk.js"
   },
   {
     "revision": "aae6722062d44990e2d2",
