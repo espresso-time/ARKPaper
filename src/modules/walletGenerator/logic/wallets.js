@@ -16,7 +16,7 @@ export const generateWallet = (passphrase, cb) => {
 
       return {
         passphrase,
-        address: Identities.Address.fromPassphrase(passphrase),
+        address: Identities.Address.fromPassphrase(passphrase, 23),
       };
     };
 
