@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ARKPaper/precache-manifest.6e42a84f40be9ca9861c96f40a54a36e.js"
+  "/ARKPaper/precache-manifest.02392a7e2f86d88f081dc285405cd2ea.js"
 );
 
 self.addEventListener('message', (event) => {
